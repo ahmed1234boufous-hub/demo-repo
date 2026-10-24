@@ -1,17 +1,18 @@
 {
   "name": "sapphire-bot",
   "version": "1.0.0",
-  "description": "Sapphire Lite — a Discord bot with ~400 commands (no music/fun modules), compressed into a single index.js. Run: npm install && node index.js",
+  "description": "Sapphire — a feature-complete Discord bot with 700+ commands, compressed into a single index.js. Run: npm install && node index.js",
   "main": "index.js",
   "type": "commonjs",
   "license": "MIT",
   "engines": {
-    "node": ">=18"
+    "node": ">=18 <=22"
   },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "@discordjs/voice": "^0.18.0",
     "@sapphire/discord.js-utilities": "^7.3.2",
     "@sapphire/fetch": "^3.0.3",
     "@sapphire/framework": "^5.5.1",
@@ -23,6 +24,7 @@
     "@sapphire/utilities": "^3.18.2",
     "better-sqlite3": "^11.10.0",
     "discord.js": "^14.21.0",
-    "dotenv": "^16.5.0"
+    "dotenv": "^16.5.0",
+    "play-dl": "^1.9.7"
   }
 }
